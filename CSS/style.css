@@ -7,7 +7,7 @@
 
 .wrapper {
     text-align: center;
-    margin: 15rem;
+    margin-top: 12rem;
     color: white;
 }
 
@@ -22,15 +22,42 @@
 }
 
 .wrapper button {
-    width: 140px;
-    height: 40px;
+    padding: 40px;
+    border-radius: 50%;
     margin: 0px 10px;
     cursor: pointer;
-    background-color: white;
-    border: 2px solid white;
     font-weight: bold;
-    transition: 0.2s;
     outline: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+#button-start {
+    background-color: #00b90046;
+    border: 2px solid #00b900;
+    
+}
+
+#button-start:hover {
+    background-color: #00b900;
+}
+
+#button-stop {
+    background-color: #ff000046;
+    border: 2px solid #FF0000;
+}
+
+#button-stop:hover {
+    background-color: #ff0000;
+}
+
+#button-reset {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+#button-reset:hover {
+    background-color: #ffffff46;
 }
 
 .wrapper a {
